@@ -20,7 +20,6 @@ func main() {
 	}()
 
 	for {
-
 		select {
 		case <-ch1:
 			fmt.Println("Received from channel 1")
