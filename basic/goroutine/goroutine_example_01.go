@@ -1,16 +1,16 @@
 package main
 
 import (
-    "fmt"
-    "time"
+	"fmt"
+	"time"
 )
 
 func hello() {
-    fmt.Println("Hello")
+	fmt.Println("Hello")
 }
 
 func main() {
-    go hello()
-    fmt.Println("欢迎来到 GetIoT.tech！")
-    time.Sleep(time.Second)
+	go hello()
+	fmt.Println("欢迎来到 GetIoT.tech！")
+	time.Sleep(time.Second)
 }
